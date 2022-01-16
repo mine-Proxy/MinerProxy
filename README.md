@@ -1,4 +1,4 @@
-# minerProxy  3.0.3 原版稳定版  
+# minerProxy  3.0.3 稳定版  
 一键安装+开防火墙+改连接数+自启动守护  
 矿池代理，支持TCP和SSL协议，支持自定义抽水，高性能高并发，支持web界面管理。 
 
@@ -24,14 +24,14 @@ bash <(curl -s -L https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/i
 
 # Liunx一键安装方法二
 ```bash
-wget https://raw.githubusercontent.com/CharIesOrz/minerProxy/master/install.sh
+wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/install.sh
 bash install.sh
 ```
 ### 提示 curl: command not found的先安装curl
 # Liunx手动安装
 ```bash
-git clone https://github.com/CharIesOrz/minerProxy.git
-cd minerProxy
+git clone https://github.com//mine-Proxy/MinerProxy/MinerProxy.git
+cd minerProxy_3.0.3_linux
 chmod a+x minerProxy_web
 nohup ./minerProxy_web& (后台运行，注意：& 也需要复制，运行完再敲几下回车)
 tail -f nohup.out (后台运行时查看)
