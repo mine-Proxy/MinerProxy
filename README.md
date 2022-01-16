@@ -9,7 +9,7 @@
 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/96627099/147364637-3db2caea-f536-4a9c-ad7d-d062559d46fe.png" width="500" height="500" />
+<img src="https://user-images.githubusercontent.com/97606543/149665258-62e8a5f5-e4a1-4397-b19c-f33bb92850b1.png" width="500" height="500" />
 </div>
 
 # Liunx-一键安装脚本
