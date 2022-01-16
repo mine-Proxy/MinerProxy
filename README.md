@@ -9,7 +9,7 @@
 重复运行命令可以安装或者卸载
 
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/CharIesOrz/minerProxy/master/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/install.sh)
 ```
 
 # Liunx管理页面
@@ -47,8 +47,8 @@ tail -f nohup.out
 ```
 ## 提示bash: git: command not found的先安装git
 # Windows-使用方法
-下载链接：https://raw.githubusercontent.com/CharIesOrz/minerProxy/master/minerProxy_web.exe    
-双击打开minerProxy_web_windows.exe 运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
+下载链接：https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/minerProxy_3.0.3_windows.exe    
+双击打开minerProxy_3.0.3_windows.exe  运行成功后访问 IP:18888 (如：127.0.0.1:18888 注意开放端口) 进行配置即可。
 
 ### 配置文件 config.yml 说明
 ```
