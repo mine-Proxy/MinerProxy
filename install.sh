@@ -175,12 +175,12 @@ start_write_config() {
     sleep 1
     supervisorctl reload
     sleep 1
-    echo "本机防火墙端口19999已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
-    echo "默认端口:19999 默认密码:https://github.com/MinerPr0xy/MinerProxy 访问管理界面:本机IP:19999"
+    echo "本机防火墙端口随机已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
+    echo "默认端口:随机 默认密码:https://github.com/mine-Proxy/MinerProxy 访问管理界面:本机IP:端口"
     echo
     echo "安装完成...守护模式无日志，需要日志的请以nohup ./MinerProxy_6.0.3_linux &方式运行"
     echo
-    echo "以下配置文件：/etc/MinerProxy/config.yml，网页端可修改登录密码token"
+    echo "以下配置文件：/etc/MinerProxy/logs/日期.log 查看随机端口 网页端可修改登录密码token"
     echo
     echo "----------------------------------------------------------------"
 }
