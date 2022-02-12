@@ -176,7 +176,7 @@ start_write_config() {
     supervisorctl reload
     sleep 1
     echo "本机防火墙端口19999已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
-    echo "默认端口:19999 默认密码:https://github.com/mine-Proxy/MinerProxy 访问管理界面:本机IP:19999"
+    echo "默认端口:19999 默认密码:https://github.com/MinerPr0xy/MinerProxy 访问管理界面:本机IP:19999"
     echo
     echo "安装完成...守护模式无日志，需要日志的请以nohup ./MinerProxy_6.0.3_linux &方式运行"
     echo
@@ -203,7 +203,7 @@ while :; do
     echo
     echo "-------- MinerProxy 一键安装脚本 by:MinerPr0xy--------"
     echo "github下载地址:https://github.com/mine-Proxy/MinerProxy"
-    echo "官方电报群:https://t.me/+h5eCcxlmHzg3NzA9"
+    echo "官方电报群:https://t.me/Miner_Proxy"
     echo
     echo " 1. 安装MinerProxy"
     echo
