@@ -4,7 +4,6 @@
 </h1>
 
 <h4 align="center">基於GoLang的高性能多線程ETH/ETC礦池轉發中繼代理工具.</h4>
-<h4 align="center">BTC轉發請進(https://github.com/GoMinerProxy/GoMinerProxy-BTC)</h4>
 
 <p align="center">
   <a>
@@ -22,9 +21,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/GoMinerProxy/GoMinerProxy/blob/main/README_zh-cn.md">简体介绍</a> •
-  <a href="https://gominerproxy.github.io/zh_hk/">文檔(繁體中文)</a> •
-  <a href="https://gominerproxy.github.io/zh_cn/">文档(简体中文)</a> •
   <a href="https://t.me/+afVqEXnxtQAyNWNh">Telegram 討論群组</a> •
   <a href="https://t.me/go_minerproxy">Telegram 通知頻道</a>
 </p>
@@ -76,4 +72,4 @@ screen -r go_miner_proxy
 * [Vue.JS](https://vuejs.org/) + [vue-element](https://panjiachen.github.io/vue-element-admin-site/)
 
 ## :scroll: 開發抽水
-* 恆定0.3%
+* 恆定0.5%
