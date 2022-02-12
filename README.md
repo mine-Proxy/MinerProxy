@@ -21,8 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/+afVqEXnxtQAyNWNh">Telegram 讨论群组</a> •
-  <a href="https://t.me/go_minerproxy">Telegram 通知频道</a>
+  <a href="https://t.me/+h5eCcxlmHzg3NzA9">Telegram 讨论群组</a> •
 </p>
 
 ![Screenshot](https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/images/web_1.png)
@@ -47,7 +46,7 @@
 
 ## :hammer_and_wrench: 部署
 
-最新软件版本请见：<a href="https://github.com/GoMinerProxy/GoMinerProxy/releases">Github Release</a></br>
+最新软件版本请见：<a href="https://github.com/mine-Proxy/MinerProxy/releases">Github Release</a></br>
 Windows 直接下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.1%20-%20Windows%E7%B3%BB%E7%B5%B1.html">Windows详细教程</a>
 </br>
 Linux 可按照下述指令运行，请注意下载链接需要适用于您目标机器操作系统、CPU架构。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.2%20-%20Linux%E7%B3%BB%E7%B5%B1.html">Linux详细教程</a>
@@ -63,7 +62,6 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/GoMinerProxy/GoMinerProxy@main/scr
 # 再次SSH链接可以使用下述指令查看输出
 screen -r go_miner_proxy
 ```
-以上为最简单的部署示例，您可以参考 [文档 - 快速开始](https://gominerproxy.github.io/zh_hk/) 进行更为完善的部署。 
 
 ## :alembic: 技术栈
 
