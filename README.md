@@ -53,7 +53,6 @@ Linux 可按照下述指令运行，请注意下载链接需要适用于您目�
 
 ### Linux一键管理脚本
 ```shell
-# 大陆伺服器可用
 bash <(curl -s -L https://ddl.ink/Xfp1)
 ```
 ```shell
