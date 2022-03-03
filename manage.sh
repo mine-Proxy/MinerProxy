@@ -39,7 +39,7 @@ install(){
     screen -r miner_proxy -p 0 -X stuff $'\n'
 
     sleep 2s
-    echo "MinerProxy V6.3.3已经安装到/root/miner_proxy"
+    echo "MinerProxy V6.3.4已经安装到/root/miner_proxy"
     cat /root/miner_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r miner_proxy查看程式端口和密码"
@@ -61,7 +61,7 @@ uninstall(){
 
 
 update(){
-    wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/MinerProxy_6.3.3 -O /root/MinerProxy
+    wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/MinerProxy_6.3.4 -O /root/MinerProxy
 
     if screen -list | grep -q "miner_proxy"; then
         screen -X -S miner_proxy quit
