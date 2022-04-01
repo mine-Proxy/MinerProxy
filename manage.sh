@@ -28,7 +28,7 @@ install(){
     wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/server.key -O /root/miner_proxy/server.key
     wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/server.pem -O /root/miner_proxy/server.pem
     
-    wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/MinerProxy_6.3.4 -O /root/miner_proxy/MinerProxy
+    wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/MinerProxy_6.3.6 -O /root/miner_proxy/MinerProxy
     chmod 777 /root/miner_proxy/MinerProxy
 
     screen -dmS miner_proxy
@@ -39,7 +39,7 @@ install(){
     screen -r miner_proxy -p 0 -X stuff $'\n'
 
     sleep 2s
-    echo "MinerProxy V6.3.4已经安装到/root/miner_proxy"
+    echo "MinerProxy V6.3.6已经安装到/root/miner_proxy"
     cat /root/miner_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r miner_proxy查看程式端口和密码"
@@ -61,7 +61,7 @@ uninstall(){
 
 
 update(){
-    wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/MinerProxy_6.3.4 -O /root/MinerProxy
+    wget https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/MinerProxy_6.3.6 -O /root/MinerProxy
 
     if screen -list | grep -q "miner_proxy"; then
         screen -X -S miner_proxy quit
@@ -79,7 +79,7 @@ update(){
     screen -r miner_proxy -p 0 -X stuff $'\n'
 
     sleep 2s
-    echo "MinerProxy 已经更新至V6.3.4版本并启动"
+    echo "MinerProxy 已经更新至V6.3.6版本并启动"
     cat /root/miner_proxy/pwd.txt
     echo ""
     echo "您可以使用指令screen -r miner_proxy查看程式输出"
@@ -176,7 +176,7 @@ check_limit(){
 
 echo "======================================================="
 echo "MinerProxy 一键脚本，脚本默认安装到/root/miner_proxy"
-echo "                                   脚本版本：V6.3.4"
+echo "                                   脚本版本：V6.3.6"
 echo "  1、安  装"
 echo "  2、卸  载"
 echo "  3、更  新"
