@@ -54,7 +54,7 @@ Linux 可按照下述指令运行，请注意下载链接需要适用于您目�
 ### Linux一键管理脚本
 ```shell
 
-bash <(curl -s -L https://raw.githubusercontent.com/mine-Proxy/beifen/main/manage.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/manage.sh)
 
 ```
 ```shell
