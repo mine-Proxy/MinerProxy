@@ -1,72 +1,259 @@
-<h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/images/logo.png" width="350"/>
-</h1>
+<div id="top"></div>
 
-<h4 align="center">基于GoLang的高性能多线程ETH/ETC矿池转发中继代理工具.</h4>
+<div align="center">
 
-<p align="center">
-  <a>
-    <img src="https://img.shields.io/badge/Release-1.3.2_ETHASH-orgin.svg" alt="travis">
-  </a>
-  <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_02_09-orgin.svg" alt="travis">
-  </a>
-  <a>
-    <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
-  </a>
-  <a>
-    <img src="https://img.shields.io/badge/License-Apache-green.svg" alt="travis">
-  </a>
-</p>
+# RustMinerSystem
 
-<p align="center">
-  <a href="https://t.me/+h5eCcxlmHzg3NzA9">Telegram 讨论群组</a> •
-</p>
+<h2>A mine pool level operation and maintenance tools👍 </h2>
 
-![Screenshot](https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/images/web_1.png)
+<img src="/image/logo.png" alt="Logo" width="170">
 
-## :sparkles: 特性
+[![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
+[![Downloads][downloads-badge]][releases]
+[![Stargazers][stars-shield]][stars-url]
 
-* :cloud: 矿池转发：支持ETH/ETC的中继代理，方便统一管理 (LTC等即将更新)
-* :zap: 超高性能：採用高效率的GoLang语言编写，并对多线程进行优化
-* 💻 自定义抽水：支持中继平台自定义抽水比例进行抽水，并支持在不关闭代理池的情况下进行动态修改
-* 📚 多种抽水算法：用户可自选各种抽水算法，防止算力出现週期函数或心跳图的情况
-* 💾 安全稳定：支持TCP、SSL等方式，并对CC攻击编写一定的策略进行防护
-* :gear: 独家前置代理模式：支持中转伺服器到矿池端的加密与混淆，可内网部署
-* :outbox_tray: 批量转发：一个软件即可开启对多个矿池的转发，无需开启多个进程
-* :card_file_box: 热修改：配置均可网页后台上热修改，无需再修改繁琐配置文件再重启
-* :art: 精美后台：后台网页功能全面、折线图、统计丰富、黑暗模式、多语言支持
-* :eye_speech_bubble: 完善社区支持：Telegram 群组内可帮助处理解决遇到的各类问题，欢迎提出反馈建议
-* :rocket: 开箱即用：All-In-One 打包，一键搭建运行，一键配置
-* :family_woman_girl_boy: 多系统支持：Windows Linux MacOS均可支持使用，无需额外环境等
-* :gear: 专业团队：拥有丰富区块链开发的工作经验，多名开发人员来自香港科技大学名校
-* :link: 快速响应：可选择开启，伪装低延迟(用户内核延迟处显示的延迟为矿机到中转服务器的延迟)、清理无效提交
-* 🌈 ... ...
+<a href="https://github.com/EvilGenius-dot/RustMinerSystem">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n">简体中文</a>
 
-## :hammer_and_wrench: 部署
+The powerful and experienced monitoring and recording system can solve the abnormal situation of the farm immediately.
 
-最新软件版本请见：<a href="https://github.com/mine-Proxy/MinerProxy/releases">Github Release</a></br>
-Windows 直接下载适用于您目标机器操作系统、CPU架构的主程序，直接运行即可。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.1%20-%20Windows%E7%B3%BB%E7%B5%B1.html">Windows详细教程</a>
-</br>
-Linux 可按照下述指令运行，请注意下载链接需要适用于您目标机器操作系统、CPU架构。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.2%20-%20Linux%E7%B3%BB%E7%B5%B1.html">Linux详细教程</a>
+The hash rate statistics at the level of mining pool, and the hash rate of any currency can be seen at a glance
 
-### Linux一键管理脚本
-```shell
+Automatically adjust the working mode and data flow according to the terminal equipment to avoid highly ineffective task sharing
 
-bash <(curl -s -L https://raw.githubusercontent.com/mine-Proxy/MinerProxy/main/manage.sh)
+The active defense and filtering system improves the security of the environment and finds hazards in time.
 
+The front-end client has high-performance TCP integration and compression technology. No matter how far the farm is from the mining pool, they can effectively reduce farm delay and prevent all middlemen from attacking.
+
+The commission system compatible with various algorithms can reasonably improve the mine profits.
+
+Built-in algorithm engines can update popular currencies without heating.
+
+The dashboard is perfectly compatible with various devices, with PC, MOBILE, and PAD at a glance.
+
+Perfect control logic, even if the service charge is turned on, the mine pool end will not show that the equipment is offline.
+
+Based on the development of Rust, efficient language brings unparalleled performance.
+
+High-performance, next-generation operation and maintenance experience, which is a professional farm operation and maintenance system-RustMinerSystem brought by the top R&D team and RUST experts in Silicon Valley
+
+(Partial Preview)
+
+<img src="/image/1.png" alt="Logo" width="670">
+
+</div>
+
+# Free customized version
+
+[Click for free customized version description](#dingzhi)
+
+# Join the discussion group
+
+Telegram：<a href="https://t.me/rustkt">https://t.me/rustkt</a>
+
+Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOTVl</a>
+
+<!-- Discord：<a href="sadfasfdasfsa">sadfasfdasfsa</a> -->
+
+# Special thanks
+
+<img src="/image/icon-logo-blue.png" alt="Logo" width="100">
+
+<img src="/image/poolin.svg" alt="Logo" width="100">
+
+<p>Thanks for the technical support provided by the mine pool😊</p>
+
+# Supported algorithms
+
+For the supported algorithm, the corresponding currency will be updated without heat at any time, and the client 0 will bear the burden
+
+
+| arithmetic      | Support     | Relevant currency |
+| --------------- | ------------| ------------------|
+| SHA256          | ✅          | BTC、BCH...        
+| ETHASH          | ✅          | ETC、ETHW、ETHF、ETC+ZIL、ETHW+ZIL、ETHF+ZIL
+| SCRYPT          | ✅          | LTC...
+| KHEAVYHASH      | ✅          | KASPA...
+
+
+# Service Agreement
+
+RustMinerSystem is subject to the supervision of Hong Kong laws. Please note that the legal requirements of various countries/regions may restrict such products and services. Therefore, this product and service as well as some functions may not be available or may be restricted in some jurisdictions or regions or some users. You should understand and comply with the local laws and regulations. If you use this product, the default representative accepts the above license. If the legal problems caused by this product are irrelevant to this product.
+
+
+
+
+[rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
+[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v1.0.1-green?logo=rust
+[downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
+[releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
+[stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
+[stars-shield]: https://img.shields.io/github/stars/EvilGenius-dot/RustMinerSystem.svg?style=flat
+[stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
+
+# Installation 
+
+1. **Install**
+
+   Select your applicable operating system
+
+   <details open>
+   <summary>Linux</summary>
+
+   > Run the following shell instructions to run the toolkit
+   >
+   > ```sh
+   >  bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
+   > ```
+   >
+   > After running successfully, you will see the following menu.
+   >
+
+   </details>
+
+   <details open>
+   <summary>Windows</summary>
+
+   > Please download the specified version directly from the Windows directory of this project:
+   >
+   > ```sh
+   > https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
+   > ```
+   >
+
+   </details>
+
+
+# Version Log
 ```
-```shell
-# 再次SSH链接可以使用下述指令查看输出
-screen -r go_miner_proxy
+1.0.1
+Fixed a bug caused by links
+
+1.0.0
+Open test
+
+0.9.999
+A serious security breach was fixed
+
+Optimized commission logic for all currencies
+
+0.9.99
+Optimize BTC, LTC
+
+Optimized mean delay display is not accurate
+
+0.9.98
+Optimize the bottom layer and reduce losses
+
+0.9.97
+Fixed a serious bug in program pseudo death
+
+0.9.96
+The perfect BTC@KAS
+
+0.9.95
+fix...
+
+0.9.94
+fix...
+
+0.9.93
+fix...
+
+0.9.92
+Fixed a bug where the hot update wallet would cause the application to crash. Fixed some kernel kas connection issues 
+ 
+Fixed ltc small power display bug
+
+0.9.91
+Fixed a bug where the hot update wallet caused the program to crash
+
+Fixed kas not working properly due to changes in the previous version
+
+0.9.9
+Optimized a lot of details
+
+Optimized Yami equipment
+
+Further reducing the probability of ineffectiveness (although already very low)
+
+Optimized memory and CPU usage
+
+0.1.4
+Optimize e9 and e9pro
+
+0.1.3
+Optimizing Antminer s17
+
+0.1.2
+Fixed a serious issue of task chaos for multiple devices under Rust
+
+Fixed issue where kas was unable to receive tasks
+
+0.1.0
+Release of internal test version
 ```
 
-## :alembic: 技术栈
+# Help
 
-* [Go](https://golang.org/) + [Gin](https://github.com/gin-gonic/gin)
-* [NodeJs](https://nodejs.org/) + [GitBook](https://www.gitbook.com/)
-* [Vue.JS](https://vuejs.org/) + [vue-element](https://panjiachen.github.io/vue-element-admin-site/)
+<span id="dingzhi"></span>
 
-## :scroll: 开发抽水
-* 恆定0.5%
+# Customize the version description
+
+1. Join a chat group <a href="https://t.me/rustkt">https://t.me/rustkt</a>
+2. Please organize the following format data and send it to the group master or administrator:
+
+Example:  
+
+Software name  
+
+Project address  
+
+logo and Introduction
+
+—————————————————
+
+currency: BTC,
+
+Built-in commission rate: ratio
+
+Built-in anonymous wallet: xxxxxxxxxxxxxx
+
+Built-in subaccount: xxxxxxxxxxxx
+
+The device name is displayed in the mine pool: xxxxx
+
+—————————————————
+
+currency: ETC
+
+Built-in commission rate: ratio
+
+Built-in anonymous wallet: xxxxxxxxxxxxxx
+
+Built-in subaccount: xxxxxxxxxxxx
+
+The device name is displayed in the mine pool: xxxxx
+
+—————————————————
+
+currency: ETC+ZIL
+
+Built-in commission rate: ratio
+
+Built-in anonymous wallet: etc匿名钱包.zil匿名钱包
+
+Built-in subaccount: xxxxxxxxxxxx
+
+The device name is displayed in the mine pool: xxxxx
+
+—————————————————
+
+......
+
+The built-in service fee pool address is the same as the target address in the software by default, and the service fee will be drawn to the target pool address of the port. Each currency needs to provide an anonymous wallet and a sub-account. For a mine pool like BTC, which does not support anonymous mining, only a sub-account can be provided to ensure that it can work normally in any supported type of mine pool 
+ 
+If you do not make the installation link, project home page, etc., you can contact the group master or administrator for free hosting services
+
+# Other issues
+
+This is a free software, which does not charge any fees. It only takes 0.2% of the computing power of the terminal equipment from the technical point of view as a technical return.
