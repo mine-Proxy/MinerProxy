@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# RustMinerSystem
+# TcstMinerSystem
 
 <h2>A mine pool level operation and maintenance tools👍 </h2>
 
